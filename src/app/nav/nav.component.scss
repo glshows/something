@@ -33,3 +33,25 @@
 .site-navigation .container, .search-area {
     position: relative;
 }
+.nav-search {
+    position: absolute;
+    cursor: pointer;
+    top: 22px;
+    right: 18px;
+    color: #999;
+    .fa, .fas {
+        font-weight: 900;
+    }
+}
+.search-block {
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+    display: none;
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    top: 100%;
+    width: 300px;
+    z-index: 10;
+    margin-top: 0;
+}
