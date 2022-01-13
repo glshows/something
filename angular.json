@@ -69,10 +69,6 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "options": {
-            "host": "glshows.com",
-            "port": 80
-          },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
@@ -107,7 +103,11 @@
             ],
             "scripts": []
           }
-        }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
+        }      
       }
     }
   },
