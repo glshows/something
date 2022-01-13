@@ -1,0 +1,14 @@
+.landing-page{
+    .carousel-inner{
+        max-height: 600px;
+        .carousel-item{
+            img{
+                width: 100%;
+                background-size: contain;
+            }
+            img:hover{
+                background-size: cover;
+            }
+        }
+    }
+}

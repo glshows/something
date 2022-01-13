@@ -1,0 +1,35 @@
+.top-bar{
+    padding: 8px 0;
+    background: #ebebeb;
+    position: relative;
+
+}
+
+.header-one, .header-one .site-navigation{
+    background: #23282d;
+}
+.bg-white {
+    background-color: #fff!important;
+}
+.header-one .logo-area {
+    padding: 30px 0;
+}
+.header{
+    .bg-white{
+        background-color: #fff!important;
+        .container{
+            .logo{
+                text-align: center!important;
+                max-width: 200px;
+                overflow: hidden;
+               
+            }
+        }
+    }
+}
+.header-right {
+    float: right;
+}
+.site-navigation .container, .search-area {
+    position: relative;
+}

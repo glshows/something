@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { LandingComponent } from './landing/landing.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LandingComponent } from './landing/landing.component';
     NavComponent,
     AboutUsComponent,
     ContactUsComponent,
-    LandingComponent
+    LandingComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
