@@ -1,6 +1,6 @@
 .landing-page{
     .carousel-inner{
-        max-height: 600px;
+        max-height: 700px;
         .carousel-item{
             img{
                 width: 100%;
@@ -11,4 +11,71 @@
             }
         }
     }
+    .carousel-control-prev{
+        .carousel-control-prev-icon{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 4rem;
+            height: 4rem;
+
+        }
+        .carousel-control-prev-icon:hover{
+            color: white;
+            background-color: #ffb600;;
+        }
+    }
+    .carousel-control-next{
+        .carousel-control-next-icon{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.3);
+            font-size: 24px;
+            width: 4rem;
+            height: 4rem;
+
+        }
+        .carousel-control-next-icon:hover{
+            color: white;
+            background-color: #ffb600;;
+        }
+    }
+}
+
+.carousel-caption h1 {
+    font-weight: bold;
+    font-size: 6.2em; /* small size since this is the default in Bootstrap */
+    text-align:left;
+    text-shadow: 2px 2px 2px 2px #000000;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.carousel-caption p {
+    font-size: 3em; /* small size since this is the default in Bootstrap */
+    text-align:left;
+    text-shadow: 2px 2px 2px 2px #000000;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+@media (min-width: 576px) { // Small devices (landscape phones, 576px and up)
+  .carousel-caption h1 { font-size: 3.3em;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  .carousel-caption p {font-size: 2.1em;}  
+}
+@media (min-width: 768px) {// Medium devices (tablets, 768px and up)
+  .carousel-caption h1 { font-size: 4.4em;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  .carousel-caption p {font-size: 2.2em;}  
+}
+@media (min-width: 992px) { // Large devices (desktops, 992px and up)
+  .carousel-caption h1 { font-size: 5.5em;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  .carousel-caption p {font-size: 2.3em;}  
+}
+@media (min-width: 1200px) { // Extra large devices (large desktops, 1200px and up)
+  .carousel-caption h1 { font-size: 6.6em;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  .carousel-caption p {font-size: 3.4em;}  
 }
