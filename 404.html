@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Don't force https when serving the website locally
+    if ((window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
   <script src="https://kit.fontawesome.com/e0eb6a9622.js" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon-32x32.png">
