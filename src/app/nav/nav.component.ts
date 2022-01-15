@@ -16,9 +16,9 @@ export class NavComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
   onWindowScroll() {
     const scrollPosition = window.pageYOffset;
+    // console.log(scrollPosition);
 
-    if (scrollPosition > 100){
-      console.log(scrollPosition);
+    if (scrollPosition > 120){
       this.document.getElementById('site-navigation').style.position = 'fixed';
       this.document.getElementById('site-navigation').style.top = '0';
 
