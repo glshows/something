@@ -1,6 +1,7 @@
 .landing-page{
+  z-index: -1;
     .carousel-inner{
-        max-height: 700px;
+        max-height: 600px;
         .carousel-item{
             img{
                 width: 100%;
@@ -38,6 +39,7 @@
             background-color: #ffb600;;
         }
     }
+
 }
 
 .carousel-caption h1 {
@@ -79,3 +81,44 @@
 }
   .carousel-caption p {font-size: 3.4em;}  
 }
+
+
+.overlapping_quote{
+  z-index: 1;
+  margin-top: -51px;
+  .container{
+    height: 100px;
+    .box_with_quote_and_button{
+      background-color: #ff7518;
+      padding: 32px;
+      padding-left: 40px;
+      position: absolute;
+      width: 85%;
+      .title{
+        color: #fff;
+        margin: 0;
+        line-height: 36px;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+      .overlapping_box_btn {
+        text-align: center;
+         background: #23282d;
+         -webkit-border-radius: 28;
+         -moz-border-radius: 28;
+         border-radius: 1px;
+         font-family: Arial;
+         color: #ffffff;
+         font-size: 20px;
+         padding: 5px 10px 5px 10px;
+         text-decoration: none;
+        }
+   
+      .overlapping_box_btn:hover {
+            cursor: pointer;
+            background: black;
+            text-decoration: none;
+      }
+    }
+  }
+} 
