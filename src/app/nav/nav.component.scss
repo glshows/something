@@ -99,7 +99,7 @@
         }
     }
     .site-navigation{
-        background: #ff7518;
+        background: black;;
         padding-top: 8px;
         padding-bottom: 8px;
         .container{
@@ -113,8 +113,7 @@
                             font-weight: 600;
                         }
                         a:hover{
-                            border-bottom: 2px solid black;
-                            color: black;
+                            color: #ff7518;
                         }
                     }
                     
@@ -138,7 +137,8 @@
                             }
                         }
                         li:hover{
-                            background-color: #f1a167;
+                            background-color: black;
+                            color: blanchedalmond;
                         }
                     }
                   }
