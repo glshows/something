@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, HostListener, Inject, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-landing',
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
-  constructor() { }
 
   ngOnInit(): void {
+    let promoLandingpage_video = <HTMLVideoElement> document.getElementById('promoLandingpage_video');
+    promoLandingpage_video.play();  
   }
-
 }
