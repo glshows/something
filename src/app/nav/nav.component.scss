@@ -2,23 +2,100 @@
     padding: 8px 0;
     background: #ebebeb;
     position: relative;
-
+    .container{
+        ul.top-info{
+            padding-left: 16px;
+            list-style: none;
+            float: left;
+            li{
+                i{
+                    font-size: 18px;
+                    position: relative;
+                    top: 2px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .top-social{
+            ul{
+                list-style: none;
+                    li{
+                        a{
+                            color: #2c2c2c;
+                            font-size: 14px;
+                            transition: 400ms;
+                            padding: 9px 12px;
+                            .fab{
+                                font-weight: 400;
+                            }
+                        }
+                    }
+            }   
+        }                     
+    }
 }
 
 .header-one{
     background: #23282d;
-    .bg-white{
+    .bg{
         background-color: #fff!important;
         .container{
+            line-height: 2.2;
             .logo{
                 text-align: center!important;
                 max-width: 200px;
                 overflow: hidden;
-                padding: 30px 0;
+                padding: 0 0;
+                img{
+                    float: left;
+                    padding-left: 20px;
+                }
             }
-            .header-right {
-                float: right;
-            }
+           .second_menu_right_item{
+               .label{
+                font-size: 14px;
+                margin-bottom: 8px;
+                line-height: normal;
+                font-family: "Open Sans", sans-serif;
+                text-rendering: optimizeLegibility;
+                -webkit-font-smoothing: antialiased !important;
+               }
+               .label_data{
+                margin: 0;
+                line-height: normal;
+                font-size: 15px;
+                font-weight: 700;
+                color: #111;
+               }
+               .big_contact_button {
+                   text-align: center;
+                    background: #fb4f14;
+                    background-image: -webkit-linear-gradient(top, #fb4f14, #ff7518);
+                    background-image: -moz-linear-gradient(top, #fb4f14, #ff7518);
+                    background-image: -ms-linear-gradient(top, #fb4f14, #ff7518);
+                    background-image: -o-linear-gradient(top, #fb4f14, #ff7518);
+                    background-image: linear-gradient(to bottom, #fb4f14, #ff7518);
+                    -webkit-border-radius: 28;
+                    -moz-border-radius: 28;
+                    border-radius: 28px;
+                    font-family: Arial;
+                    color: #ffffff;
+                    font-size: 20px;
+                    padding: 5px 10px 5px 10px;
+                    text-decoration: none;
+              }
+              
+              .big_contact_button:hover {
+                    cursor: pointer;
+                    background: #ff7518;
+                    background-image: -webkit-linear-gradient(top, #ff7518, #fb4f14);
+                    background-image: -moz-linear-gradient(top, #ff7518, #fb4f14);
+                    background-image: -ms-linear-gradient(top, #ff7518, #fb4f14);
+                    background-image: -o-linear-gradient(top, #ff7518, #fb4f14);
+                    background-image: linear-gradient(to bottom, #ff7518, #fb4f14);
+                    text-decoration: none;
+              }
+           }
         }
     }
     .site-navigation{
@@ -26,32 +103,10 @@
         padding-top: 8px;
         padding-bottom: 8px;
         .container{
-            .nav-search {
-                position: absolute;
-                cursor: pointer;
-                top: 22px;
-                right: 18px;
-                color: #999;
-                .fa, .fas {
-                    font-weight: 900;
-                }
-            }
-            .search-block {
-                background-color: rgba(0, 0, 0, 0.65);
-                box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
-                display: none;
-                padding: 10px;
-                position: absolute;
-                right: 15px;
-                top: 100%;
-                width: 300px;
-                z-index: 10;
-                margin-top: 0;
-                
-            }
-            .search-area {
-                position: relative;
-            }
+            .navbar-nav > li{
+                padding-left:15px;
+                padding-right:15px;
+              }
         }
     }
 }
