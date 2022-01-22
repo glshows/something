@@ -1,5 +1,7 @@
 .landing-page{
-
+  background-color: #CCCBC9;
+  .carousel{
+    z-index: 0;
     .carousel-inner{
       z-index: 0;
         max-height: 600px;
@@ -17,6 +19,8 @@
         }
     }
     .carousel-control-prev{
+      position: absolute;
+      z-index: 1;
         .carousel-control-prev-icon{
             color: white;
             background-color: rgba(0, 0, 0, 0.3);
@@ -43,6 +47,8 @@
             background-color: #ff7518;
         }
     }
+  }
+   
 
 }
 
@@ -88,23 +94,25 @@
 
 
 .overlapping_quote{
+  background-color: #CCCBC9;
   z-index: 1;
   margin-top: -51px;
-  
+ 
   .container{
     height: 100px;
     .box_with_quote_and_button{
       background-color: #ff7518;
       padding: 32px;
       padding-left: 40px;
-     
-      width: 100%;
+      position: absolute;
+      left: 10%;
+      right: 10%;
       .title{
         color: #fff;
         
         line-height: 36px;
         text-transform: uppercase;
-        font: 2.05rem/1.4 Georgia, serif;
+        font: 2vw Georgia, serif;
       }
       .overlapping_box_btn {
         text-align: center;
@@ -114,7 +122,7 @@
          border-radius: 1px;
          font-family: Arial;
          color: #ffffff;
-         font-size: 20px;
+         font-size: 2vw;
          padding: 5px 10px 5px 10px;
          text-decoration: none;
         }

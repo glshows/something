@@ -18,17 +18,18 @@
             }
             .centered {
                 color: #fff;
-                font-size: 58px;
+                font-size: 5vw;
                 line-height: 48px;
                 position: absolute;
                 top: 50%;
-                left: 50%;
+                right:0;
                 transform: translate(-50%, -50%);
                 h1{
                     text-transform: uppercase;
-                    background-color: chartreuse;
+                    background-color: darkblue;
                     font-weight: 900;
                     padding-left: 32px;
+                    font-size: 3.5vw;
                     padding-right: 32px;
                     font-family: 'Montserrat', sans-serif;
                     text-rendering: optimizeLegibility;
