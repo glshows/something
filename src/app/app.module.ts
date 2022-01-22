@@ -10,6 +10,11 @@ import { LandingComponent } from './landing/landing.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { OurPeopleComponent } from './our-people/our-people.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProductBioDegradebleComponent } from './product-bio-degradeble/product-bio-degradeble.component';
+import { ProductRecycleFabricComponent } from './product-recycle-fabric/product-recycle-fabric.component';
+import { ProductCharacteristicComponent } from './product-characteristic/product-characteristic.component';
+import { ProductJacquardWovenComponent } from './product-jacquard-woven/product-jacquard-woven.component';
+import { FaqComponent } from './faq/faq.component';
 // import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
@@ -21,7 +26,12 @@ import { FooterComponent } from './footer/footer.component';
     LandingComponent,
     PagenotfoundComponent,
     OurPeopleComponent,
-    FooterComponent
+    FooterComponent,
+    ProductBioDegradebleComponent,
+    ProductRecycleFabricComponent,
+    ProductCharacteristicComponent,
+    ProductJacquardWovenComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
