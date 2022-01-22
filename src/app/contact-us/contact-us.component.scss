@@ -1,0 +1,179 @@
+/* Header/Logo Title */
+
+.contactUs{
+    position: relative;
+    text-align: center;
+    color: white;
+    .headingTitle {
+        position: relative;
+
+        img{
+            height: 300px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-color: rgba(255, 117, 24, 0.5)
+        }
+        .centered {
+            color: #fff;
+            font-size: 58px;
+            line-height: 48px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            h1{
+                text-transform: uppercase;
+                background-color: chartreuse;
+                font-weight: 900;
+                padding-left: 32px;
+                padding-right: 32px;
+                font-family: 'Montserrat', sans-serif;
+                text-rendering: optimizeLegibility;
+                -webkit-font-smoothing: antialiased
+            }
+            p{
+                font-size: 24px;
+                background-color: chartreuse;
+
+            }
+          }
+    }
+    .container{
+        color: black;
+        .subsection1{
+            margin-top: 72px;
+            .section-title {
+                font-size: 18px;
+                line-height: 28px;
+                margin: 0;
+                text-transform: uppercase;
+                font-weight: 300;
+            }
+            h2 {
+                font-size: 28px;
+                line-height: 36px;
+                text-transform: uppercase;
+                letter-spacing: -1px;
+                color: #212121;
+                font-weight: 700;
+               
+            }
+            .section-sub-title {
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 46px;
+                margin: 0 0 60px;
+                color: #212121;
+            }
+            h3 {
+                font-size: 24px;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+                letter-spacing: -.5px;
+                color: #212121;
+                font-weight: 700;
+   
+            }
+        }
+        .subsection2{
+            margin-top: 72px;
+            .blackbox{
+                color: white;
+                background-color: #252525;
+                width: 100%;
+                height: 250px;
+                font-weight: 700;
+                i{
+                    margin-top: 32px;
+                    font-size: 24px;
+                    color: #fff;
+                    background: rgb(255, 117, 24);;
+                    text-align: center;
+                    border-radius: 100%;
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    
+                    position: relative;
+                    float: none;
+                }
+                h4{
+                    text-transform: uppercase;
+                    margin-top: 20px;
+                }
+                p{
+                    margin-top: 24px;
+                    margin-bottom: 24px;
+                    margin-left: 16px;
+                    margin-right: 16px;
+                }
+            }
+        }
+        .subsection3{
+            .mapDirection{
+                agm-map {
+                    height: 300px;
+                  }
+            }
+        }
+        .subsection4{
+            margin-bottom: 72px;
+            .contactform{
+                form {
+                    margin:10% auto 0 auto;
+                    padding:30px;
+                    width:100%;
+                    height:auto;
+                    overflow:hidden;
+                    background:#23282d;
+                    border-radius:10px;
+                    color: white;
+                }
+                
+                form label {
+                    font-size:14px;
+                    cursor:pointer;
+                }
+                
+                form label,
+                form input {
+                    float:left;
+                    clear:both;
+                }
+                
+                form input {
+                    margin:15px 0;
+                    padding:15px 10px;
+                    width:100%;
+                    outline:none;
+                    border:1px solid #bbb;
+                    border-radius:20px;
+                    display:inline-block;
+                }
+                
+                form textarea{
+                    clear:both;
+                    width:100%;
+                    outline:none;
+                    border:1px solid #bbb;
+                    border-radius:20px;
+                    display:inline-block;
+                }
+                
+                input[type=submit] {
+                    padding:15px 50px;
+                    width:auto;
+                    background:rgb(49, 16, 16);;
+                    border:none;
+                    color:white;
+                    cursor:pointer;
+                    display:inline-block;
+                    clear:right;
+                
+                }
+                   
+            }
+        }
+    }
+}

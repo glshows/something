@@ -9,6 +9,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { LandingComponent } from './landing/landing.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { OurPeopleComponent } from './our-people/our-people.component';
+import { FooterComponent } from './footer/footer.component';
+// import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,15 @@ import { OurPeopleComponent } from './our-people/our-people.component';
     ContactUsComponent,
     LandingComponent,
     PagenotfoundComponent,
-    OurPeopleComponent
+    OurPeopleComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'sdds'
+    // })
   ],
   providers: [],
   bootstrap: [AppComponent]

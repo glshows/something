@@ -1,1 +1,70 @@
-<p>contact-us works!</p>
+<div class="contactUs">
+   
+    <div class="headingTitle">
+        <img src="assets/main/contactUs.jpg" alt="Snow" style="width:100%;">
+        <div class="centered">
+            <h1>CONTACT</h1>
+            <p>Got a Query ?</p>
+        </div>
+    </div>
+      
+    <div class="container">
+        <div class="subsection1">
+            <h2 class="section-title">REACHING OUR OFFICE</h2>
+            <h3 class="section-sub-title">FIND OUR LOCATION</h3>
+        </div>
+        <div class="subsection2">
+            <div class="row">
+                <div class="col-4">
+                    <div class="blackbox">
+                        <i class="fas fa-search-location"></i>
+                        <h4>Visit Our Office</h4>
+                        <p>No.288 Wuzhong Road, Shengze Town, Wujiang District, Suzhou City, Jiangsu China</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blackbox">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <h4>Email Us</h4>
+                        <p>contact @glshows.com</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blackbox">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <h4>Call Us</h4>
+                        <p>( +86 ) - 1537 012 27897</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subsection3">
+            <div class="mapDirection">
+                <!-- <agm-map  [latitude]="lat" [longitude]="lng" [zoom]="zoom" [disableDefaultUI]="false" [zoomControl]="false" (mapClick)="mapClicked($event)">
+                    <agm-marker  *ngFor="let m of markers; let i = index" (markerClick)="clickedMarker(m.label, i)" [latitude]="m.lat"
+                        [longitude]="m.lng" [label]="m.label" [markerDraggable]="m.draggable" (dragEnd)="markerDragEnd(m, $event)">
+                        <agm-info-window>
+                            <strong>InfoWindow content</strong>
+                        </agm-info-window> 
+                    </agm-marker>
+            
+                    <agm-circle [latitude]="lat + 0.3" [longitude]="lng" [radius]="5000" [fillColor]="'red'" [circleDraggable]="true" [editable]="true">
+                    </agm-circle>
+                </agm-map> -->
+            </div>
+        </div>
+        <div class="subsection4">
+            <div class="contactform">
+                <form action="https://formspree.io/contact@glshows.com" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="full-width" /><br />
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="_replyto" class="full-width" /><br />
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br />
+                    <input type="submit" value="Send" class="button" />
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+.ourPeople{
+    margin-top: 72px;
+    margin-bottom: 72px;
+    .container{
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            background-color: chartreuse;
+            font-weight: 900;
+            padding-left: 32px;
+            padding-right: 32px;
+            font-family: 'Montserrat', sans-serif;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            margin-bottom: 72px;
+        }
+        .headingTitle {
+            position: relative;
+            img{
+                height: 100%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                background-color: rgba(255, 117, 24, 0.5)
+            }
+            
+        }
+    }
+}

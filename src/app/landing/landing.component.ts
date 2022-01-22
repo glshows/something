@@ -12,5 +12,11 @@ export class LandingComponent implements OnInit {
   ngOnInit(): void {
     let promoLandingpage_video = <HTMLVideoElement> document.getElementById('promoLandingpage_video');
     promoLandingpage_video.play();  
+    
+  }
+  play_video(){
+    let promoLandingpage_video = <HTMLVideoElement> document.getElementById('promoLandingpage_video');
+    promoLandingpage_video.play();  
+    
   }
 }

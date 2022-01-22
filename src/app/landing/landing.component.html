@@ -1,7 +1,7 @@
 <div class="landing-page">
     
     <!-- Carousel -->
-    <div id="landing_pageCarousal" class="carousel carousel-dark carousel-fade slide" data-ride="carousel">
+    <div id="landing_pageCarousal" class="carousel  carousel-fade slide" data-ride="carousel">
 
     <!-- Indicators/dots
     <div class="carousel-indicators">
@@ -18,7 +18,8 @@
     <!-- The slideshow/carousel -->
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
-        <video id="promoLandingpage_video" width="100%" height=100% autoplay >
+        <!-- <div class="play_btn" (click)="play_video()"><i class="fas fa-play"></i></div> -->
+        <video id="promoLandingpage_video" preload="auto" width="100%" height=100% [autoplay]="'true'" [loop]="true" onclick="this.play()"  style="z-index: 0;">
             <source src="assets/promo/promo_video.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
@@ -79,9 +80,9 @@
   <div class="container">
     <div class="box_with_quote_and_button">
       <div class="row">
-        <div class="col-9 title">yaha pe koi quote btao</div>
+        <div class="col-9 title"><q>INNOVATE WITH PASSION FOR YOUR FASHION</q></div>
         <div class="col-3">
-          <div class="overlapping_box_btn">Main Kuch Karega !</div>
+          <div class="overlapping_box_btn">Order Now <i class="fas floating-right fa-arrow-right"></i></div>
         </div>
 
       </div>
